@@ -147,8 +147,40 @@
         </ul>
     </section>
 
-    <footer>
-        <p>&copy; 2024 Adega Chique. Todos os direitos reservados.</p>
-    </footer>
+    <!-- Seção de Comentários e Avaliações -->
+<section id="reviews" class="section">
+    <h2>Avalie o Nosso Serviço</h2>
+    
+    <!-- Formulário de Avaliação -->
+    <div class="review-form">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" placeholder="Digite seu nome" required>
+
+        <label for="comment">Comentário:</label>
+        <textarea id="comment" placeholder="Deixe seu comentário" required></textarea>
+        
+        <label for="rating">Avaliação (1 a 5 estrelas):</label>
+        <div id="rating" class="rating">
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+        </div>
+        
+        <button type="submit" id="submit-review">Enviar Avaliação</button>
+    </div>
+
+    <div id="reviews-list">
+        <h3>Avaliações dos Clientes</h3>
+        <div id="reviews-container">
+            <!-- Avaliações serão exibidas aqui -->
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Adega Chique. Todos os direitos reservados.</p>
+</footer>
 </body>
 </html>
